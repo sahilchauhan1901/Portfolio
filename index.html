@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar" id="myNav">
+            <h1 class="nav-name">Sahil</h1>
+            <ul class="nav-links">
+                <a href="#" class="nav-link">
+                    <li>Home</li>
+                </a>
+                <a href="#" class="nav-link">
+                    <li>About</li>
+                </a>
+                <a href="#" class="nav-link">
+                    <li>Services</li>
+                </a>
+                <a href="#" class="nav-link">
+                    <li>Contact</li>
+                </a>
+            </ul>
+            <div class="head-right">
+                <button class="hireme-btn">Hire Me</button>
+                <a href="#" class="nav-icon" onclick="ShowNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-container">
+            <!-- <img src="https://source.unsplash.com//1600x800//?men" class="hero-img" alt=""> -->
+            <div class="hero-content">
+                <h1>I am Sahil Chauhan</h1>
+                <p>Web Designer!</p>
+            </div>
+            <div>
+                <img src="img/img02.jpg" class="hero-img" alt="">
+            </div>
+        </div>
+        <div class="service-container">
+            <div class="service-heading">
+                <h1><b>SERVICES</b></h1>
+                <p>We will provide this all services.</p>
+            </div>
+            <div class="service-card-container">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-briefcase" style="margin-top: 30px;"></i>
+                    </div>
+                    <h3>WEB DESIGN</h3>
+                    <p>Proficient in designing responsive layouts, optimizing for SEO, and ensuring a seamless user experience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-list-check" style="margin-top: 30px;"></i>
+                    </div>
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>Proficient in designing responsive layouts, optimizing for SEO, and ensuring a seamless user experience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-camera-retro" style="margin-top: 30px;"></i>
+                    </div>
+                    <h3>PHOTOGRAPHY</h3>
+                    <p>Proficient in designing responsive layouts, optimizing for SEO, and ensuring a seamless user experience.</p>
+                </div>
+            </div>
+        </div>
+        <div class="projects-container">
+            <div class="projects-heading">
+                <h1><b>PROJECTS</b></h1>
+                <p>Here Some dummy projects design by Me.</p>
+            </div>
+            <div class="projects-card-container">
+                <a href="https://foodie-one-indol.vercel.app/" target="_blank" class="projects-card-01 project-card">
+                    <div>
+                        <h1>FOOD ORDERING</h1>
+                        <p>Click to visit the webpage.</p>
+                    </div>
+                </a>
+                <a href="https://trydo-drab.vercel.app/" target="_blank" class="projects-card-02 project-card">
+                    <div>
+                        <h1>Trydo</h1>
+                        <p>Click to visit the webpage.</p>
+                    </div>
+                </a>
+                <a href="https://bagistry.vercel.app/" target="_blank" class="projects-card-03 project-card">
+                    <div>
+                        <h1>Bagistry</h1>
+                        <p>Click to visit the webpage.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="contact-me-container">
+            <div class="contact-me-head">
+                <h1><b>CONTACT ME</b></h1>
+                <p>You will contact me anytime you want.</p>
+            </div>
+            <div class="contact-card-container">
+                <div class="contact-card">
+                    <i class="fa-solid fa-location-dot" style="color: rgb(56, 133, 241);"></i>
+                    <h5>ADDRESS</h5>
+                    <hr>
+                    <p>Yamunanagar, Haryana, India</p>
+                    <div class="contact-card-foot">
+                        <!-- <h1>hello</h1> -->
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-mobile-screen-button" style="color: rgb(56, 133, 241);"></i>
+                    <h5>PHONE</h5>
+                    <hr>
+                    <p>+91 8708826607</p>
+                    <div class="contact-card-foot">
+                        <!-- <h1>hello</h1> -->
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-paper-plane" style="color: rgb(56, 133, 241);"></i>
+                    <h5>EMAIL</h5>
+                    <hr>
+                    <p>sahilchauhan1901@gmail.com</p>
+                    <div class="contact-card-foot">
+                        <!-- <h1>hello</h1> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="send-msg-container">
+            <div class="map-container">
+
+            </div>
+            <div class="send-msg-box">
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Email address">
+                <textarea name="" placeholder="Write your msg here..." id="" cols="30" rows="7"></textarea>
+            </div>
+        </div>
+        <div>
+            <button class="snd-msg-btn">Send Message</button>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/sahil1931"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+            <a href="https://www.instagram.com/_sahil_1931/"><i class="fa-brands fa-instagram social-icon"></i></a>
+            <a href="https://www.linkedin.com/in/sahil1931/"><i class="fa-brands fa-linkedin social-icon"></i></a>
+            <a href=""><i class="fa-brands fa-telegram social-icon"></i></a>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
