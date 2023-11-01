@@ -237,7 +237,6 @@ body {
     margin: 12px;
     padding-top: 40px;
 }
-
 .contact-card:hover {
     cursor: pointer;
 }
@@ -370,6 +369,9 @@ body {
         display: block;
         text-align: center;
         margin: 40px 200px;
+    }
+    .hireme-btn{
+        display: none;
     }
 }
 @media(max-width:1083px) {
