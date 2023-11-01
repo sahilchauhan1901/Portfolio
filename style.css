@@ -237,6 +237,7 @@ body {
     margin: 12px;
     padding-top: 40px;
 }
+
 .contact-card:hover {
     cursor: pointer;
 }
@@ -306,16 +307,19 @@ body {
     font-size: 22px;
     margin: 8px;
 }
-@media(max-width:499px){
+
+@media(max-width:499px) {
     .send-msg-box input {
         padding: 12px 4px;
         margin: 13px;
     }
+
     .send-msg-box textarea {
         padding: 41px 50px;
         margin-top: 19px;
         width: 228px;
     }
+
     .snd-msg-btn {
         background-color: rgb(56, 133, 241);
         color: white;
@@ -327,11 +331,13 @@ body {
         cursor: pointer;
         margin-top: 12px;
     }
-    .send-msg-box{
+
+    .send-msg-box {
         display: flex;
         flex-direction: column;
     }
 }
+
 @media screen and (max-width:767px) {
     .navbar .nav-links {
         display: none;
@@ -368,17 +374,21 @@ body {
         float: none;
         display: block;
         text-align: center;
-        margin: 40px 200px;
+        margin: auto;
+        margin-top: 30px;
     }
-    .hireme-btn{
+
+    .hireme-btn {
         display: none;
     }
 }
+
 @media(max-width:1083px) {
-    .map-container{
+    .map-container {
         display: none;
-    }   
-    .hero-img{
+    }
+
+    .hero-img {
         display: none;
     }
 }
