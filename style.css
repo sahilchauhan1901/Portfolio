@@ -317,7 +317,7 @@ body {
     .send-msg-box textarea {
         padding: 41px 50px;
         margin-top: 19px;
-        width: 228px;
+        width: 220px;
     }
 
     .snd-msg-btn {
@@ -335,6 +335,7 @@ body {
     .send-msg-box {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
 
